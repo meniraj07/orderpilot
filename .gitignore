@@ -1,0 +1,17 @@
+cat > .gitignore << 'EOF'
+# Java / Maven
+target/
+*.class
+# Go
+/services/*/bin/
+# Node
+node_modules/
+dist/
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+# local env
+.env
+EOF
